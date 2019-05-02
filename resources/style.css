@@ -169,3 +169,50 @@ header img {
     height: 300px;
     width: 100%;
 }
+
+/* Copy one */
+
+.copy-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.copy-one-container p {
+    margin-top: 50px;
+    font-family: Metric-Light;
+    color: black;
+    width: 70%;
+}
+
+/*Body copy section 2*/
+
+.section-two-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+}
+
+.section-two .column-one {
+    margin-top: 20px;
+    font-family: Metric-Light;
+    color: black;
+    width: 55%;
+}
+
+.section-two .column-two {
+    margin-top: 20px;
+    width: 45%;
+    font-family: Metric-Medium;
+    font-size: 35px;
+    color: #152e5d;
+    margin-left: 20px;
+}
