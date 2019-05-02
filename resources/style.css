@@ -26,7 +26,7 @@ header img {
     font-size: 13px;
     border: 1px solid #DADADA;
     z-index: 10;
-    margin-left: 100px;
+    margin-left: 15%;
 }
 
 .paid-post-box .paid-post {
@@ -60,12 +60,13 @@ header img {
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
+    width: 100%;
 }
 .lead-image h1 {
     font-family: Metric-Medium;
     z-index: 1;
     position: absolute;
-    margin-left: 100px;
     padding-bottom: 170px;
     font-size: 60px;
     width: 700px;
@@ -74,9 +75,9 @@ header img {
 
 .image-line {
     border-top: 6.5px solid #537faf;
-    margin-left: 100px;
     padding-bottom: 150px;
     position: absolute;
+    margin-left: -248px;
     z-index: 1;
     width: 200px;
     height: 5px;
@@ -89,4 +90,26 @@ header img {
     object-fit: cover;
     border-radius: 0 0 20% 0;
     z-index: 0;
+}
+
+/* Hero */
+
+.standfirst-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.standfirst {
+    margin-top: 30px;
+    font-family: Metric-Regular;
+    color: #537faf;
+    width: 700px;
+}
+
+.standfirst .date {
+    font-family: Metric-Medium;
+    color: #152e5d;
+    margin-top: 6px;
 }
