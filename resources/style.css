@@ -69,7 +69,7 @@ header img {
     position: absolute;
     padding-bottom: 170px;
     font-size: 60px;
-    width: 700px;
+    width: 70%;
     color: #152e5d;
 }
 
@@ -105,7 +105,7 @@ header img {
     margin-top: 30px;
     font-family: Metric-Regular;
     color: #537faf;
-    width: 700px;
+    width: 70%;
 }
 
 .standfirst .date {
@@ -113,3 +113,51 @@ header img {
     color: #152e5d;
     margin-top: 6px;
 }
+
+/* Video one */
+
+.video-one-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-one {
+    width: 100%;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.play-button {
+    object-fit: scale-down;
+    height: 50px;
+    position: absolute;
+}
+
+/* Title one */
+
+.opening-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.opening-text h3 {
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: Metric-Semibold;
+    color: #152e5d;
+    width: 70%;
+}
+
+.opening-text p {
+    margin-top: 20px;
+    font-family: Metric-Light;
+    color:black;
+    width: 70%;
+}
+
