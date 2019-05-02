@@ -218,3 +218,145 @@ header img {
     color: #152e5d;
     margin-left: 20px;
 }
+
+/* infographic */
+
+.infographic-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.infographic {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infographic-image {
+    max-width: 1100px;
+    width: 100%;
+    object-fit: scale-down;
+    position: relative;
+}
+
+/* copy-two */
+
+.copy-two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.copy-two-container p {
+    margin-top: 20px;
+    font-family: Metric-Light;
+    color: black;
+    width: 70%;
+}
+
+/* video two */
+
+.video-two-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-two {
+    max-width: 1200px;
+    width: 100%;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.play-button {
+    object-fit: scale-down;
+    height: 50px;
+    position: absolute;
+}
+
+/* copy-three */
+
+.copy-three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.copy-three-container p {
+    margin-top: 20px;
+    font-family: Metric-Light;
+    color: black;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+/* CTA Banner */
+
+.cta-banner-container {
+    display: flex;
+    font-family: Metric-Regular;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 80px;
+    background-color: #edf2f6;
+}
+
+.cta-info {
+    font-family: Metric-Semibold;
+}
+
+.cta-button {
+    margin-left: 40px;
+    font-family: Metric-Semibold;
+    background-color: #dca43b;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #537fa6;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.footer p {
+    margin-top: 50px;
+    width: 70%;
+    max-width: 1100px;
+    font-family: Metric-Medium;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer img {
+    height: 300px;
+    width: 70%;
+    max-width: 1100px;
+    object-fit: cover;
+}
+
+/* Nikkei Footer */
+
+.nikkei-footer img {
+    width: 100%;
+}
