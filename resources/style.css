@@ -93,7 +93,7 @@ header img {
     z-index: 0;
 }
 
-/* Hero */
+/* Standfirst */
 
 .standfirst-container {
     display: flex;
@@ -127,6 +127,7 @@ header img {
 }
 
 .video-one {
+    max-width: 1200px;
     width: 100%;
     object-fit: scale-down;
     position: relative;
